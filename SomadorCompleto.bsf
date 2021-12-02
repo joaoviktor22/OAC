@@ -1,0 +1,64 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 224 208)
+	(text "SomadorCompleto" (rect 5 0 107 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 160 40)
+		(input)
+		(text "A" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "A" (rect 126 32 135 46)(font "Arial" (font_size 8)))
+		(line (pt 144 40)(pt 160 40))
+	)
+	(port
+		(pt 160 72)
+		(input)
+		(text "B" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "B" (rect 127 64 135 78)(font "Arial" (font_size 8)))
+		(line (pt 144 72)(pt 160 72))
+	)
+	(port
+		(pt 160 104)
+		(input)
+		(text "CarryIn" (rect 0 0 41 14)(font "Arial" (font_size 8)))
+		(text "CarryIn" (rect 94 96 135 110)(font "Arial" (font_size 8)))
+		(line (pt 144 104)(pt 160 104))
+	)
+	(port
+		(pt 0 72)
+		(output)
+		(text "CarryOut" (rect 16 0 67 14)(font "Arial" (font_size 8)))
+		(text "CarryOut" (rect 24 64 75 78)(font "Arial" (font_size 8)))
+		(line (pt 16 72)(pt 0 72))
+	)
+	(port
+		(pt 80 144)
+		(output)
+		(text "SOMA" (rect 0 48 36 62)(font "Arial" (font_size 8)))
+		(text "SOMA" (rect 72 88 86 124)(font "Arial" (font_size 8))(vertical))
+		(line (pt 80 144)(pt 80 128))
+	)
+	(drawing
+		(rectangle (rect 8 16 144 128))
+	)
+)
